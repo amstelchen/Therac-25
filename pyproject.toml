@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "therac-25"
+version = "0.1.0"
+description = "A Python port of the C implementation of the Therac-25 interface (and bugs)"
+authors = ["Michael John <michael.john@gmx.at>"]
+license = "MIT"
+readme = "README.md"
+include = ["therac.c"]
+
+[tool.poetry.scripts]
+therac-25 = 'therac_25.__main__:main'
+therac = 'therac_25.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+homepage = "https://github.com/amstelchen/Therac-25"
+repository = "https://github.com/amstelchen/Therac-25"
+documentation = "https://github.com/amstelchen/Therac-25"
