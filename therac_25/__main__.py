@@ -31,7 +31,7 @@ curcol = [16, CENTER_LEFT + 11, RIGHT, CENTER_RIGHT, CENTER_RIGHT, CENTER_RIGHT,
 
 def main():
     global done
-    logging.basicConfig(filename="therac.log", encoding="utf-8", level=logging.DEBUG)
+    # logging.basicConfig(filename="therac.log", encoding="utf-8", level=logging.DEBUG)
     w = curses.initscr()
 
     if curses.LINES < 24 or curses.COLS < 80:

@@ -23,7 +23,7 @@ Then, run:
 
 or from the wheel:
 
-    $ pip install therac_25-0.1.0-py3-none-any.whl
+    $ pip install therac_25-0.1.1-py3-none-any.whl
 
 Install directly from ``github``:
 
@@ -37,12 +37,24 @@ or
 
     $ therac
 
+#### Quick start commands
+
+BEAM TYPE:
+- (empty)
+- "X": Megavolt X-ray
+- "E": Electron-beam therapy
+
+("field light" mode was supposely not implemented in the C source code)
+
+COMMAND: 
+- "b" or "B" - Start treatment
+- "q" or "Q" - Quit program
 
 #### Dependencies
 
 None, except curses which will come pre-installed with any Linux distro.
 
-On Windows, you are on your own, using [UniCurses](https://pypi.org/project/UniCurses/) with [PDCurses](https://pdcurses.org/) might work.
+On Windows, you are on your own, using [UniCurses](https://pypi.org/project/UniCurses/) with [PDCurses](https://pdcurses.org/) might work (__not tested__).
 
 #### Reporting bugs
 
@@ -55,6 +67,11 @@ TBD
 #### Future plans / TODO
 
 TBD, (see TODO.md)
+
+#### Changelog
+
+- 0.1.0: initial version
+- 0.1.1: removed logging
 
 #### Licences
 

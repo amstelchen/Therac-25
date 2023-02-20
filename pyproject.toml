@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "therac-25"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python port of the C implementation of the Therac-25 interface (and bugs)"
 authors = ["Michael John <michael.john@gmx.at>"]
 license = "MIT"
